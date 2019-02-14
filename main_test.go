@@ -14,8 +14,8 @@ func TestPipe1(t *testing.T) {
 	if !strings.Contains(result, "ABC") {
 		t.Error("Result is not valid, no ABC")
 	}
-	t.Error("Sucks 1")
-	t.Error("Sucks 2")
+	//t.Error("Sucks 1")
+	//t.Error("Sucks 2")
 	//t.Log(result)
 }
 

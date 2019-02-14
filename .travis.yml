@@ -1,4 +1,9 @@
 language: go
 go: 
  - 1.11.x
- 
+
+notifications:
+ slack:
+  on_success: change # default: change
+  on_failure: always # default: always
+

@@ -9,8 +9,8 @@ import (
 
 func main() {
 	pipe1()
-	fmt.Println(BuildVersion)
-	fmt.Println(BuildTime)
+	fmt.Println(buildVersion)
+	fmt.Println(buildTime)
 	fmt.Println("Done!")
 }
 

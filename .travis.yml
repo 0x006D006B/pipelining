@@ -7,3 +7,4 @@ notifications:
   on_success: change # default: change
   on_failure: always # default: always
 
+gobuild_args: -x -ldflags "-X main.buildVersion 1.2.3"

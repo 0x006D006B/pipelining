@@ -18,3 +18,12 @@ func TestPipe1(t *testing.T) {
 	//t.Error("Sucks 2")
 	//t.Log(result)
 }
+
+func TestVersion(t *testing.T) {
+	result := buildVersion
+
+	if result == "" {
+		t.Error("BuildVersion is missing")
+	}
+	t.Log("BuildVersion = " + result)
+}

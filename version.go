@@ -1,6 +1,6 @@
 package main
 
 var (
-	buildVersion string
-	buildTime    string
+	buildVersion string = "not set"
+	buildTime    string = "not set"
 )

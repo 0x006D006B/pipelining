@@ -47,6 +47,7 @@ func stage2(cin chan string, cout chan string) {
 	for s := range cin {
 		var x string
 		x = s + "B"
+		time.Sleep(90 * time.Millisecond)
 		fmt.Println("s2: " + x)
 		cout <- x
 	}
